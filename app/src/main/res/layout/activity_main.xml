@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <com.zjf.seekbar.view.VHSeekBar
+    android:id="@+id/fsb_vsb_ver_seek_bar"
+    android:layout_width="match_parent"
+    android:layout_height="28dp"
+    android:layout_marginTop="100dp"
+    android:paddingLeft="17.5dp"
+    android:paddingStart="17.5dp"
+    android:paddingRight="17.5dp"
+    android:paddingEnd="17.5dp"
+    app:vh_orientation="horizontal"
+    app:vh_progress="0"
+    app:vh_max_progress="100"
+    app:vh_bg_color="@color/color_212121"
+    app:vh_progress_color="@color/color_808080"
+    app:vh_point_color="@color/color_white"
+    app:vh_bg_radius="28dp"
+    app:vh_progress_radius="24dp"
+    app:vh_point_radius="16dp"
+    app:vh_top_bg_space="24dp"/>
+
+  <com.zjf.seekbar.view.CircleShadowView
+    android:id="@+id/seek_circle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    app:csv_bg_color="@color/color_white"
+    app:csv_bg_diam="44dp"
+    app:csv_text="0"
+    app:csv_text_color="@color/color_333333"
+    app:csv_text_size="18sp" />
+
+</FrameLayout>

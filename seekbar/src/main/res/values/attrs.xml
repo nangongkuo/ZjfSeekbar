@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+  <declare-styleable name="CircleShadowView">
+    <attr name="csv_bg_color" format="color|reference" />
+    <attr name="csv_bg_diam" format="dimension|reference" />
+    <attr name="csv_text_size" format="dimension|reference" />
+    <attr name="csv_text_color" format="color|reference" />
+    <attr name="csv_text" format="string|reference" />
+  </declare-styleable>
+
+  <declare-styleable name="VHSeekBar">
+    <attr name="vh_max_progress" format="integer" />
+    <attr name="vh_progress" format="integer" />
+    <attr name="vh_orientation">
+      <enum name="horizontal" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+    <attr name="vh_bg_color" format="color|reference" />
+    <attr name="vh_progress_color" format="color|reference" />
+    <attr name="vh_point_color" format="color|reference" />
+    <attr name="vh_bg_radius" format="dimension|reference" />
+    <attr name="vh_progress_radius" format="dimension|reference" />
+    <attr name="vh_point_radius" format="dimension|reference" />
+    <attr name="vh_top_bg_space" format="dimension|reference" />
+  </declare-styleable>
+
+</resources>

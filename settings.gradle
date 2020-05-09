@@ -1,0 +1,2 @@
+include ':app', ':seekbar'
+rootProject.name='ZjfSeekbar'
