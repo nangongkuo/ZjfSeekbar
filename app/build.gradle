@@ -29,9 +29,9 @@ allprojects {
 //        }
 
         //私有服务器仓库地址
-        maven {
-            url 'http://localhost:8081/repository/maven-releases/'
-        }
+//        maven {
+//            url 'http://localhost:8081/repository/maven-releases/'
+//        }
     }
 }
 
@@ -43,7 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    implementation 'com.zjf.seekbar:ZjfSeekBar:1.0.4'
+    implementation 'com.zjf.seekbar:zjfseekbar:1.0.0'
 
 //    implementation project(':seekbar')
 }
