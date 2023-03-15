@@ -119,6 +119,6 @@ dependencies {
 ext {
   PUBLISH_GROUP_ID = "io.github.nangongkuo"		//项目包名
   PUBLISH_ARTIFACT_ID = 'ZjfSeekbar'			//项目名
-  PUBLISH_VERSION = "1.0.0-ahpha01"				//版本号
+  PUBLISH_VERSION = "1.0.0-ahpha05"				//版本号
 }
 apply from: "${rootProject.projectDir}/publish-mavencentral.gradle"
