@@ -20,6 +20,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
     // 解决上传乱码问题
     tasks.withType(Javadoc) {
