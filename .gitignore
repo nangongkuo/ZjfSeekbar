@@ -16,4 +16,6 @@
 .idea
 local.properties
 publish-mavencentral.gradle
+publish.gradle
+publish.properties
 
