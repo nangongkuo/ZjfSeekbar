@@ -119,6 +119,7 @@ dependencies {
 ext {
   PUBLISH_GROUP_ID = "io.github.nangongkuo"		//项目包名
   PUBLISH_ARTIFACT_ID = 'ZjfSeekbar'			//项目名
-  PUBLISH_VERSION = "1.0.0-ahpha05"				//版本号
+  PUBLISH_VERSION = "1.0.0-ahpha13"				//版本号
 }
-apply from: "${rootProject.projectDir}/publish-mavencentral.gradle"
+//apply from: "${rootProject.projectDir}/publish-mavencentral.gradle" // 原始的放在项目跟目录下的
+apply from: "${rootProject.projectDir}/../../project-main/PrivateKey/ZjfSeekbar/maven/publish-mavencentral.gradle" // 新的放在单独的专用Private项目目录下
