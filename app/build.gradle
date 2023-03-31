@@ -23,6 +23,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
 //        //本地Maven仓库地址
 //        maven {
 //            url 'file:/Users/zjf/project/zjfseekbar/repository'
@@ -43,7 +44,6 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    implementation 'com.zjf.seekbar:zjfseekbar:1.0.0'
-
-//    implementation project(':seekbar')
+//    implementation 'com.zjf.seekbar:zjfseekbar:1.0.0'
+    implementation project(':seekbar')
 }
